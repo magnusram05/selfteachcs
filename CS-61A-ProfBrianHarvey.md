@@ -26,3 +26,14 @@ Lecture-2: [Functional programming - Lecture-2](https://archive.org/details/ucbe
 **Abstraction**
 - Application | High-level language (Scheme) | Low-level language (c) | Machine language/Architecture | Logic Gates | Transistors | Quantum Physics
 - Abstraction is a layer built on top of lower-level bulding blocks
+
+**Function vs Procedure**
+
+- f(x) = 2x + 6
+- g(x) = 2 (x+3)
+
+These are same function but different procedures.  There are no functions inside a computer. A computer only understands procedures.
+Procedures what determines how fast a function is though 2 functions does the same thing but differently.  
+
+*It is easier to make things work and then make it work efficiently than to make it run faster and then make it work!*
+  
