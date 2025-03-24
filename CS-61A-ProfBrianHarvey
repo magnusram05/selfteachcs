@@ -1,6 +1,6 @@
 22-Mar-2025
 
-Lecture-1: https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8
+Lecture-1: [Functional programming in Scheme](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8)
 
 * Learnt about a new language called Scheme. Professor Harvey was executing a bunch of Scheme programs.
 Example: When executed, this (+ 3 4) will print 7
