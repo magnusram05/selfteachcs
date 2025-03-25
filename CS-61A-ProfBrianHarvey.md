@@ -1,5 +1,4 @@
 22-Mar-2025
-
 Lecture-1: [Functional programming in Scheme](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8)
 
 * Learnt about a new language called Scheme. Professor Harvey was executing a bunch of Scheme programs.
@@ -13,7 +12,6 @@ Example: When executed, this (+ 3 4) will print 7
 scheme ==> emesch - stop at the first vowel in a word and move all preceeding letters to the last!
 
 23-Mar-2025
-
 Lecture-2: [Functional programming - Lecture-2](https://archive.org/details/ucberkeley_webcast_TTK2lZoWbPQ)
 
 **What is a Function?**
@@ -36,4 +34,58 @@ These are same function but different procedures.  There are no functions inside
 Procedures what determines how fast a function is though 2 functions does the same thing but differently.  
 
 *It is easier to make things work and then make it work efficiently than to make it run faster and then make it work!*
+
+24-Mar-2025
+Lecture-3: [Functional programming - Higher-order procedure-1](https://archive.org/details/ucberkeley_webcast_ogIGxEzvnSE)
+
+there are things - data 
+and
+there are actions - functions
+
+There is a wall between these two concepts in our brain.  Breaking down this wall is the goal of this functional programming course where we will soon see that the functions can be passed to other functions as data
+
+why would we do that?
+A computer program that can fit in our memory is easy to understand in contrast to the ones that are huge.  
+One way to reduce the size of the programs and make it easy to digest is to find the common patterns and extract it into a function and pass the unique actions as functions to the common function
+
+For example: sumofsquare and sumofcubes are functions that have similar functionality except for a minor variation - square and sum vs cube and sum. 
+
+```java
+public int sumofsquare(int start, int end) {
+    int sum = 0;
+    for (i=start; i <= end; i++) {
+        sum = sum + (i * i)
+    }
+    return sum;
+}
+```
+
+```java
+public int sumofcube(int start, int end) {
+    int sum = 0;
+    for (i=start; i <= end; i++) {
+        sum = sum + (i * i * i)
+    }
+    return sum;
+}
+```
+
+```java
+public int sum(Function<Integer, Integer> func, int start, int end){ 
+    int sum = 0;
+    for (i=start; i <= end; i++) {
+        sum = sum + func.apply(i);
+    }
+    return sum;
+}
+
+public static void main(String [] args) {
+    HigherOrderProcedure hop = new HigherOrderProcedure();
+    hop.sum( (i) -> (i * i * i), 1, 10); //Sum of cubes
+    hop.sum( (i) -> (i * i), 1, 10);     //Sum of square
+}
+```
+As shown, we generalized the summing function.  We take the thing that varies, represented as another function, as a parameter input into the generalized function.
+
+- When we pass a function to another function, the funtion that is passed is evaluated as a function but it is not 'called'.  Calling happens within the generalized function.
   
