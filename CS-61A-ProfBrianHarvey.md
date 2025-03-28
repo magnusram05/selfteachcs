@@ -88,4 +88,14 @@ public static void main(String [] args) {
 As shown, we generalized the summing function.  We take the thing that varies, represented as another function, as a parameter input into the generalized function.
 
 - When we pass a function to another function, the funtion that is passed is evaluated as a function but it is not 'called'.  Calling happens within the generalized function.
+
+28-Mar-2025
+
+Alan Kay distinguished lecture series Part-1: User interface design
+
+Computer literacy has three parts
+- Access literacy: reading code. just like we can read a newspaper or book using our reading skills
+- Creative literacy: writing code. 
+just reading English language is not considered literate. Must know how to write
+- Genre literacy: Just like we have to adapt to different genres of literature - Shakespeare era, era after that.. we need to adapt to different programming languages and styles within that
   
