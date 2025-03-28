@@ -91,7 +91,7 @@ As shown, we generalized the summing function.  We take the thing that varies, r
 
 28-Mar-2025
 
-Alan Kay distinguished lecture series Part-1: User interface design
+[Alan Kay distinguished lecture series Part-1: User interface design](https://archive.org/details/ucberkeley_webcast_dC4YGxzoAXk)
 
 Computer literacy has three parts
 - Access literacy: reading code. just like we can read a newspaper or book using our reading skills
