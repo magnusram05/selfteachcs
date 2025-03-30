@@ -101,7 +101,7 @@ just reading English language is not considered literate. Must know how to write
 
 29-Mar-2025
 
-[Alan Kay distinguished lecture series Part-2: https://archive.org/details/ucberkeley_webcast_qxDGE1-S_LE]
+[Alan Kay distinguished lecture series Part-2:](https://archive.org/details/ucberkeley_webcast_qxDGE1-S_LE)
 
 Context is more important than logic - ex.: Choosing the correct data structure will do solve most of the problem we are trying to solve than the algorithm (or logic)
 
