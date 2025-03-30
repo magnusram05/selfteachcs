@@ -98,4 +98,21 @@ Computer literacy has three parts
 - Creative literacy: writing code. 
 just reading English language is not considered literate. Must know how to write
 - Genre literacy: Just like we have to adapt to different genres of literature - Shakespeare era, era after that.. we need to adapt to different programming languages and styles within that
-  
+
+29-Mar-2025
+
+[Alan Kay distinguished lecture series Part-2: https://archive.org/details/ucberkeley_webcast_qxDGE1-S_LE]
+
+Context is more important than logic - ex.: Choosing the correct data structure will do solve most of the problem we are trying to solve than the algorithm (or logic)
+
+Problem solving has more than one dimension - lateral thinking
+
+There are three mentalities - Kinesthetics (children - real-world) => Images (young adults - concrete) => Symbolics (adults - abstraction)
+Ex.: Mouse helps locate things on the screen - Kinesthetics is how easy UI design should be.  Mouse as a UI tool is so basic for the user to operate.  
+
+When designing UI systems, it should do the thing it is supposed to do. At the same time, it should let the user make full use of the underlying system.  Example - MaC OS is a wrapper around unix.
+
+Anyone new to tennis can learn to play tennis in one afternoon by not letting the mind interfere with thing we are supposed to do when playing tennis - when we don't try too hard we can learn anything easily.
+
+So any great UI design takes into account the human psychology and the three mentalities to problem solving - don't make them try too hard. It should feel natural. 
+
