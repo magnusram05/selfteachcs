@@ -116,3 +116,11 @@ Anyone new to tennis can learn to play tennis in one afternoon by not letting th
 
 So any great UI design takes into account the human psychology and the three mentalities to problem solving - don't make them try too hard. It should feel natural. 
 
+07-Apr-2025
+
+[Lecture-7 - Orders of grown](https://archive.org/details/ucberkeley_webcast_32L5j10rrK0)
+
+Running time of an algorithm must be measured by identifying number of constant time operations in the algorithm multiplied by N. 
+
+If an algorithm's running time function is 7N^2 + 3N + 2, we can ignore constant 7 and 3N+2 as N^2 is always going to be higher.
+
