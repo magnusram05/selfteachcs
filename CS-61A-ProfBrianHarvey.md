@@ -118,7 +118,7 @@ So any great UI design takes into account the human psychology and the three men
 
 07-Apr-2025
 
-[Lecture-7 - Orders of grown](https://archive.org/details/ucberkeley_webcast_32L5j10rrK0)
+[Lecture-7 - Orders of growth](https://archive.org/details/ucberkeley_webcast_32L5j10rrK0)
 
 Running time of an algorithm must be measured by identifying number of constant time operations in the algorithm multiplied by N. 
 
