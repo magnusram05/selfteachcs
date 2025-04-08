@@ -128,3 +128,13 @@ If an algorithm's running time function is 7N^2 + 3N + 2, we can ignore constant
 
 [Lecture-8 - Recursion and Iteration](https://archive.org/details/ucberkeley_webcast_0G3tNuBBO5I)
 
+Recursion solves the problem on the way out i.e. traversing back up the call stack. Iteration solves it on the way in. So recursion takes up more memory because of the stacked procedure call. 
+
+Think hard where the inefficiency in our algorithm and reduce the order of growth from exponential to quadratic to linear to logarithmic
+
+Search algorithms are typically linear, logarithmic 
+
+Sorting algorithms are quadratic, nlogn
+
+
+
