@@ -136,5 +136,14 @@ Search algorithms are typically linear, logarithmic
 
 Sorting algorithms are quadratic, nlogn
 
+[Lecture-8: Data Abstraction](https://archive.org/details/ucberkeley_webcast_Oy36XpGVyjA)
+
+Constructors abstract object creations
+
+Selectors encapsulate internal implementation
+
+We create abstract types from the language primitives and create meaningful abstractions which enables easy maintenance as changes can be localized within the individual abstractions as the abstractions are/should be responsible for only thing.
+
+
 
 
