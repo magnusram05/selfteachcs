@@ -154,6 +154,10 @@ Scheme language specific APIs - keep, every - for sentence structure
 filter, map - for list data structure
 accumulate - works for both
 
+12-Apr-2025
+
+[Lecture-11 - Example calculator](https://archive.org/details/ucberkeley_webcast_nzMPF59Ackg)
+
 
 
 
