@@ -156,7 +156,21 @@ accumulate - works for both
 
 12-Apr-2025
 
-[Lecture-11 - Example calculator](https://archive.org/details/ucberkeley_webcast_nzMPF59Ackg)
+[Lecture-11 - Computer Science 61A Example: calculator](https://archive.org/details/ucberkeley_webcast_nzMPF59Ackg)
+
+syntax varies across programming languages while semantics remain the same. if/for conditional and loops are common in programming languages but it's syntax will be different.
+
+Applicative order - evaluate expression and then call the function
+
+normal order - call the function with expression itself
+
+apply - is a function that takes a function and arguments to that function and calls the function with the arguments
+
+REPL - Read, eval, print, loop
+
+calc language is an interpreter written in scheme and it has only 4 functionalities +/-/*/\ 
+
+calc interpreter interprets (read and eval) the calc expression passed to it and prints the output 
 
 
 
