@@ -170,7 +170,11 @@ REPL - Read, eval, print, loop
 
 calc language is an interpreter written in scheme and it has only 4 functionalities +/-/*/\ 
 
-calc interpreter interprets (read and eval) the calc expression passed to it and prints the output 
+calc interpreter interprets (read and eval) the calc expression passed to it and prints the output
+
+14-Apr-2025
+
+[Computer Science 61A - Lecture 12: hierarchical data](https://archive.org/details/ucberkeley_webcast_pSuEz5ZCVAg)
 
 
 
