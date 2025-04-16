@@ -176,6 +176,18 @@ calc interpreter interprets (read and eval) the calc expression passed to it and
 
 [Computer Science 61A - Lecture 12: hierarchical data](https://archive.org/details/ucberkeley_webcast_pSuEz5ZCVAg)
 
+Abstraction is important to hide the complexity of implementation and to make the code read easily and to make it maintenable.
+
+For example when representing a tree structure we can name the value of the node Datum and its branches as children. Underneath we represent the children as a plain old sequential list 
+
+A node is a tree as it has branches and each branch themselves are trees including leaf nodes but with empty list of trees
+
+usage of Trees seen on the field - AST programming language converts the program into a tree with operator and operands for compilation/interpretation
+
+Hierarchical data representation - countries > states > cities etc. Each node can have n number of children
+
+Binary search tree - for efficient searching in a sorted tree where each node has utmost 2 children
+
 
 
 
