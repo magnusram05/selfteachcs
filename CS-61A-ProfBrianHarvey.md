@@ -188,6 +188,10 @@ Hierarchical data representation - countries > states > cities etc. Each node ca
 
 Binary search tree - for efficient searching in a sorted tree where each node has utmost 2 children
 
+17-Apr-2025
+
+[Computer Science 61A - Lecture 13: hierarchical data](https://archive.org/details/ucberkeley_webcast_kbqJ3UGPgOc)
+
 
 
 
