@@ -192,6 +192,24 @@ Binary search tree - for efficient searching in a sorted tree where each node ha
 
 [Computer Science 61A - Lecture 13: hierarchical data](https://archive.org/details/ucberkeley_webcast_kbqJ3UGPgOc)
 
+Depth first search - group things based on the heirarchy
+ 
+Breath first search - using queue to maintain order of children we want visit breath first
+
+In-order, pre-order and post-order binary tree travel
+
+1
+/\
+2 3
+  /\
+ 4  5
+
+2 1 4 3 5. in-order ( left Sub tree, datum, right sub tree) 
+
+1 2 3 4 5 pre order ( datum, left sub tree, right sub tree) 
+
+2 4 5 3 1 post order ( left sub tree, right sub tree, datum)
+
 
 
 
