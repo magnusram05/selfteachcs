@@ -198,11 +198,14 @@ Breath first search - using queue to maintain order of children we want visit br
 
 In-order, pre-order and post-order binary tree travel
 
+```
+
 1
 /\
 2 3
   /\
  4  5
+```
 
 2 1 4 3 5. in-order ( left Sub tree, datum, right sub tree) 
 
