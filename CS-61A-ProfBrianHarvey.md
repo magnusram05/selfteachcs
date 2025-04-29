@@ -213,6 +213,10 @@ In-order, pre-order and post-order binary tree travel
 
 2 4 5 3 1 post order ( left sub tree, right sub tree, datum)
 
+28-Apr-2025
+
+[Computer Science 61A - Lecture 14: Example: Scheme-1 interpr](https://archive.org/details/ucberkeley_webcast_3FjDrWv00Hc)
+
 What is an expression? 
 
 anything we type in a programming language is an expression
