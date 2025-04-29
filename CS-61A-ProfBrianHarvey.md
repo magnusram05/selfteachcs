@@ -213,6 +213,22 @@ In-order, pre-order and post-order binary tree travel
 
 2 4 5 3 1 post order ( left sub tree, right sub tree, datum)
 
+What is an expression? 
+
+anything we type in a programming language is an expression
+
+and these expressions must follow the language rules called syntax
+
+so that it can be interpreted by the language interpreter that interprets what we typed in a high level language into machine language that the machine understands
+
+self evaluation expressions = numbers, parenthesis, quotes, spaces
+
+symbols a.k.a variables = not self evaluating as the value of the symbol must be looked up from memory
+
+list (specific to scheme language)
+ procedure calls and its arguments 
+ special forms - if, cond
+
 
 
 
