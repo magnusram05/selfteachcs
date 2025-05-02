@@ -233,7 +233,7 @@ list (specific to scheme language)
  procedure calls and its arguments 
  special forms - if, cond
 
-
+when talking about interpreters, everything is an expression. As everything an interpreter encounters it has to interpret it as a thing and then do the actual evaluation. In other words the distinction is not important. An interpreter's job is to make sense of what is written (read), evaluate, print (optional), loop
 
 
 
