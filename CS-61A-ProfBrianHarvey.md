@@ -1,3 +1,20 @@
+20-Jun-2025
+
+Lecture-21: [Environments](https://archive.org/details/ucberkeley_webcast_uxvRoOV9nOk)
+
+Lambda declaration involves 2 bubles - lamdba args/body & enviroment 
+Lambda invocation is evaluated like this - (eval args env)
+- eval evaluates lambda as lambda
+- eval evaluates args and does apply of lambda using arguments values and environment
+- an environment refers to the surrounding area where the lamdba is defined (lexical scope?) and the variables visible in that enviroment
+
+18-Jun-2025
+
+Lecture-20: [Assigment and State](https://archive.org/details/ucberkeley_webcast_crlcqL7lKME#reviews)
+
+Persitent local state 
+Substitution model vs Environment model
+
 22-Mar-2025
 Lecture-1: [Functional programming in Scheme](https://archive.org/details/ucberkeley_webcast_l28HAzKy0N8)
 
